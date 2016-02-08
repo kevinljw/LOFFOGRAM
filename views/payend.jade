@@ -1,0 +1,37 @@
+extends layoutGray
+
+block content
+  #introHead
+  .container.containerIntro
+    .row
+      h3.col-sm-offset-2.col-sm-8 已為您自動產生#{buynum}組贊助序號
+    p
+    hr
+    p
+      h4 您可以至「導覽列」右上方點選「人名」下拉選單->查看「我的紀錄」
+      h4 或者按下方按鈕直接前往
+      .col-md-12.introBackBtn.marginTop
+        a.a2a_dd.btn.btn-default(href='/record', target='_blank')
+          span.fa.fa-eye
+          |  前往查看
+      p.marginBtm
+      p
+      h3.col-sm-offset-2.col-sm-8
+        p 付款手續只差最後一步
+        p 安心付款，請跟我這樣做
+        hr
+      .col.col-8
+        img(src='/img/pay.jpg',width='100%')
+      .col-sm-3
+        
+        //- photo end                  
+           
+    p
+    hr
+    p       
+
+      .col-md-12.introBackBtn
+        a.a2a_dd.btn.btn-default(href='/discover')
+          span.fa.fa-check
+          |  我知道了 
+      
